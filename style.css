@@ -1,0 +1,228 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.marchendise {
+    width: 994px;
+    height: 2030px;
+    margin-left: 218px;
+}
+
+.tees {
+    width: 994px;
+    gap: 5px;
+    margin-bottom: 80px;
+}
+
+
+.tees-text {
+    display: flex;
+    width: 994px;
+    height: 34px;
+    opacity: 0px;
+    color: #00B0A6;
+    margin-left: 5px;
+    font-family: Lato;
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 34px;
+    text-align: left;
+    position: relative;
+}
+
+.For-right {
+    display: flex;
+    gap: 5px;
+    position: absolute;
+    right: 15px;
+}
+
+
+.tees-text span {
+    font-family: Lato;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: left;
+}
+
+.tees-img {
+    padding: 2px;
+    width: 970px;
+    margin-top: 16px;
+    margin-left: 12px;
+    gap: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #00B0A6;
+}
+
+#white-tee {
+    height: 420px;
+}
+
+#first-img {
+    height: 365px;
+}
+
+#first-img img {
+    width: 946px;
+    height: 341px;
+}
+
+#navy-tee {
+    height: 430px;
+}
+
+#second-img {
+    height: 360px;
+}
+
+#second-img img {
+    width: 946px;
+    height: 341px;
+}
+
+#white-shirt {
+    height: 496px;
+}
+
+#third-img {
+    height: 438px;
+}
+
+#third-img img {
+    width: 477.99px;
+    height: 414px;
+}
+
+#navy-shirt {
+    height: 486px;
+}
+
+#forth-img {
+    height: 434px;
+}
+
+#forth-img img {
+    width: 477.99px;
+    height: 414px;
+}
+
+
+@media screen and (max-width: 600px) {
+    body {
+        .marchendise {
+            /* width: 320px; */
+            width: 100vw;
+            height: 814.2pxpx;
+            top: 233px;
+            left: 20px;
+            gap: 54px;
+            opacity: 0px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .tees {
+            width: 320pxpx;
+            height: 151.05pxpx;
+            gap: 10px;
+            opacity: 0px;
+            margin-bottom:20px ;
+        }
+
+        .tees-text {
+            width: 320px;
+            height: 20pxpx;
+            gap: 10px;
+            opacity: 0px;
+            font-family: Lato;
+            font-size: 28px;
+            font-weight: 300;
+            line-height: 33.6px;
+            text-align: left;
+            position: relative;
+        }
+
+        .tees-text span {
+            font-family: Lato;
+            font-size: 28px;
+            font-style: italic;
+            font-weight: 400;
+            line-height: 33.6px;
+            text-align: left;
+        }
+
+        .tees-img {
+            width: 312.27px;
+            top: 30px;
+            left: 3.86px;
+            gap: 0px;
+            border: 1px 0px 0px 0px;
+            opacity: 0px;
+        }
+
+        #white-tee {
+            height: 117.51px;
+        }
+
+        #first-img {
+            height: 109.78px;
+        }
+
+        #first-img img {
+            width: 304.55px;
+            height: 109.78px;
+        }
+
+        #navy-tee {
+            height: 152.33px;
+        }
+
+        #second-img {
+            height: 122.33px;
+        }
+
+        #second-img img {
+            width: 304.55px;
+            height: 108.49px;
+        }
+
+        #white-shirt {
+            height: 175.51px;
+        }
+
+        #third-img {
+            height: 141.01px;
+        }
+
+        #third-img img,
+        #forth-img img {
+            width: 155.67px;
+            height: 133.28px;
+            gap: 0px;
+            opacity: 0px;
+
+        }
+
+        #navy-shirt {
+            height: 173.3px;
+        }
+
+        #forth-img {
+            height: 140.71px;
+        }
+        .For-right{
+            position: absolute;
+            right: 0px;
+        }
+
+    }
+}
